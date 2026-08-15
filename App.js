@@ -21,11 +21,9 @@ export default function App() {
     return () => clearInterval(timer);
   }, []);
 
-  const horizontalMargin = width * 0.1;
-
   return (
     <SafeAreaView style={styles.screen}>
-      <View style={[styles.widget, {width: Math.min(width - 24 - horizontalMargin * 2, 1040), height: Math.min(height - 24, 590), marginHorizontal: horizontalMargin}]}>
+      <View style={[styles.widget, {width: Math.min(width - 24, 1040), height: Math.min(height - 24, 590)}]}>
         <Text style={styles.day}>{clock.day}</Text>
         <View style={styles.timeRow}>
           <Text style={styles.timeWhite}>{clock.hoursMinutes}</Text>
