@@ -1,2 +1,2 @@
-# Gears by VIV
-CSS components to fit any and all Frameworks.
+# Gears
+Widgets I created to use on my devices.
