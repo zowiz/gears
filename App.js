@@ -38,9 +38,9 @@ export default function App() {
 const styles = StyleSheet.create({
   screen: {flex: 1, backgroundColor: '#202020', justifyContent: 'center', alignItems: 'center'},
   widget: {backgroundColor: '#000000', justifyContent: 'center', alignItems: 'center', overflow: 'hidden'},
-  day: {color: '#FFFFFF', fontSize: 44, lineHeight: 44, fontWeight: '800', letterSpacing: 1, marginBottom: 0},
+  day: {color: '#FFFFFF', fontSize: 34, lineHeight: 34, fontWeight: '800', letterSpacing: 1, marginBottom: 0},
   timeRow: {flexDirection: 'row', alignItems: 'baseline', justifyContent: 'center'},
-  timeWhite: {color: '#FFFFFF', fontSize: 108, lineHeight: 108, fontWeight: '300', letterSpacing: -3},
-  timeOrange: {color: '#FF3B00', fontSize: 108, lineHeight: 108, fontWeight: '300', letterSpacing: -3},
-  date: {color: '#FFFFFF', fontSize: 32, lineHeight: 32, fontWeight: '700', letterSpacing: 1, marginTop: 4},
+  timeWhite: {color: '#FFFFFF', fontSize: 78, lineHeight: 78, fontWeight: '300', letterSpacing: -3},
+  timeOrange: {color: '#FF3B00', fontSize: 78, lineHeight: 78, fontWeight: '300', letterSpacing: -3},
+  date: {color: '#FFFFFF', fontSize: 22, lineHeight: 22, fontWeight: '700', letterSpacing: 1, marginTop: 4},
 });
